@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, san-serif;
+  }
+  
+    .sr-only {
+      border: 0 !important;
+      clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+      -webkit-clip-path: inset(50%) !important;
+      clip-path: inset(50%) !important;  /* 2 */
+      height: 1px !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      position: absolute !important;
+      width: 1px !important;
+      white-space: nowrap !important;            /* 3 */
+  }
+  
+  
+   .main {
+     margin-left: auto;
+     margin-right: auto;
+     background: lightgreen;
+     background-image: url("https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=1600");
+     background-repeat: no-repeat;
+     height: 70vh;
+     width: 75%;
+     margin-top: 25px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+  }
+  
+  .mobile-view-nav {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .logo {
+    font-size: 2rem;
+    color: white;
+    margin-right: auto;
+    background: black;
+    font-weight: bold;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    padding: 12px;
+  }
+  
+  .logo:hover {
+    color: lightgreen;
+  }
+  
+  #hamburger {
+    border: none;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    
+    color: lightgreen;
+    background: black;
+    font-size: 1.5rem;
+    display: none;
+    
+  }
+  
+  
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  .menu-list li {
+    margin-right: .5em;
+  
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    display: flex;
+  }
+  
+  .menu-list li a:hover {
+    color: lightgreen;
+    
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+  
+  .mobile-view-nav {
+      display: flex;
+      width: 100%;
+      }
+    
+    header {
+      position: relative;
+    }
+    
+    nav {
+      flex-direction: column;
+      
+      position: absolute; 
+      width: 100%;
+      top: 76px;
+      }
+    
+  
+    
+     #hamburger, .logo {
+      display: flex;
+      padding: 12px;
+      font-size: 1.5rem;
+      }
+    
+    #hamburger {
+      margin-left: auto;
+      }
+    
+    .menu-list {
+      flex-direction: column;
+       
+    }
+    
+    .menu-list li a {
+      padding: 2rem;
+      display: flex;
+      min-width: 100vw;
+      color: white;
+      font-size: 1.2rem;
+    }
+    
+    .menu-list li {
+      margin: 0;
+    background-color:rgb(0,0,0, .85);
+      border-top: 1px solid lightgreen;
+      -webkit-backdrop-filter: blur(8px); 
+      backdrop-filter: blur(8px);
+     
+     
+  }
+   
+    .display-none {
+      display: none;
+    }
+    
+    .green-bg {
+      background: lightgreen;
+      
+    }
+    
+   
+  .main {
+      width: 100%; 
+      margin-top: 0;
+    }
+  }
+  
+  
