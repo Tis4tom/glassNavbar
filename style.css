@@ -47,26 +47,21 @@
   }
   
   
-  .logo {
+  .logo a {
     font-size: 2rem;
     color: white;
     margin-right: auto;
     background: black;
     font-weight: bold;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
     padding: 12px;
   }
   
-  .logo:hover {
+  .logo a:hover {
     color: lightgreen;
   }
   
   #hamburger {
     border: none;
-    border-top: 1px solid white;
-    border-right: 1px solid white;
-    
     color: lightgreen;
     background: black;
     font-size: 1.5rem;
@@ -74,7 +69,7 @@
     
   }
   
-  
+
   
   .menu-list {
     list-style: none;
@@ -98,6 +93,11 @@
     color: lightgreen;
     
   }
+
+  .active {
+    color: lightgreen;
+    background: steelblue;
+  }
   
   
   @media screen and (max-width: 1000px) {
@@ -116,7 +116,7 @@
       
       position: absolute; 
       width: 100%;
-      top: 76px;
+      top: 100px;
       }
     
   
@@ -160,7 +160,6 @@
     
     .green-bg {
       background: lightgreen;
-      
     }
     
    
