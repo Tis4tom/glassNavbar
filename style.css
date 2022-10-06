@@ -106,6 +106,7 @@
   .mobile-view-nav {
       display: flex;
       width: 100%;
+      padding: 3px;
       }
     
     header {
@@ -116,7 +117,7 @@
       flex-direction: column;
       position: absolute; 
       width: 100%;
-      top: 109px;
+      top: 91px;
       }
     
   
