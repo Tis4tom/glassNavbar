@@ -54,6 +54,7 @@
     background: black;
     font-weight: bold;
     padding: 12px;
+    text-decoration: none;
   }
   
   .logo a:hover {
@@ -113,10 +114,9 @@
     
     nav {
       flex-direction: column;
-      
       position: absolute; 
       width: 100%;
-      top: 100px;
+      top: 109px;
       }
     
   
